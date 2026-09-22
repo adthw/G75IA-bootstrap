@@ -1,0 +1,23 @@
+# Rapports de diagnostic : données techniques locales, jamais versionnées.
+/reports/
+**/reports/
+*.log
+
+# Documentation et états propres aux machines réelles.
+/internal/
+/docs/internal/
+/docs/reference/
+
+# Secrets et fichiers d'environnement.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Fichiers temporaires d'éditeur ou de système.
+*~
+*.swp
+.DS_Store
+Thumbs.db
