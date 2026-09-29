@@ -6,6 +6,14 @@ Diagnostic matériel depuis un environnement Linux Live et préparation d’une 
 
 > **Sécurité :** ce script est exécuté avec des privilèges élevés. Téléchargez-le uniquement depuis ce dépôt, examinez les modifications avant mise à jour et n’exécutez jamais directement une branche ou une pull request inconnue avec `sudo`.
 
+
+## Place dans la démarche G75IA
+
+Ce dépôt **public** documente le diagnostic et les méthodes génériques dont le comportement a été vérifié. La veille technologique et les expériences sur les machines sont suivies séparément avant qu'une méthode puisse être proposée ici. Une publication exige une validation reproductible, une revue de sécurité et l'absence de données propres à une machine réelle.
+
+Les rapports de diagnostic, la télémétrie brute, les secrets et les archives personnelles restent hors de ce dépôt. Une hypothèse, un benchmark externe ou un prototype ne devient pas automatiquement une instruction utilisable avec `sudo`. Les changements à faire ici se suivent par Issue ; un résultat d'essai n'est publié qu'après avoir été adapté à un cas général et revu.
+
+
 ---
 
 ## À quoi sert ce projet ?
